@@ -1,7 +1,7 @@
 repeat task.wait() until game:IsLoaded()
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/ATGFAIL/ATGToolsHub/main/Manager.lua"))()
 local screen = workspace.CurrentCamera.ViewportSize
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
